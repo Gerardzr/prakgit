@@ -8,6 +8,7 @@ const BIAYA_ANTAR = 3000
 func main() {
 
 	fmt.Println("Nama: Johanes Viandry Gerard Kefi | NIM: 42630029")
+	fmt.Println("GERARD LAUNDRY")
 	var berat float64
 	var uang int
 
