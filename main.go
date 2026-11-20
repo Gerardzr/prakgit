@@ -15,6 +15,10 @@ func main() {
 
 	fmt.Print("Berat cucian (kg): ")
 	fmt.Scan(&berat)
+		if berat > 20 {
+		fmt.Println("Melebihi kapasitas, maksimalnya 20 kg per cucian ya.")
+		return
+	}
 	fmt.Print("Uang yang diterima (Rp): ")
 	fmt.Scan(&uang)
 	biayaCuci := int(berat*TARIF_PER_KG + 0.5)
