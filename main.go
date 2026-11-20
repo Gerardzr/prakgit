@@ -25,6 +25,10 @@ func main() {
 	total := biayaCuci + BIAYA_ANTAR
 	totalBayar := (total + 99) / 100 * 100
 	kembalian := uang - totalBayar
+		if uang < totalBayar {
+		fmt.Printf("Uang kurang Rp%d\n", totalBayar-uang)
+		return
+	}
 
 	fmt.Printf("Berat cucian  : %.2f kg\n", berat)
 	fmt.Printf("Tarif per kg  : Rp%d\n", TARIF_PER_KG)
