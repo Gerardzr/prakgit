@@ -9,6 +9,7 @@ func main() {
 
 	fmt.Println("Nama: Johanes Viandry Gerard Kefi | NIM: 42630029")
 	fmt.Println("GERARD LAUNDRY")
+	fmt.Println("KHUSUS PELAJAR UNDIKNAS")
 	var berat float64
 	var uang int
 
