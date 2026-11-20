@@ -38,4 +38,6 @@ func main() {
 	fmt.Printf("Total bayar   : Rp%d\n", totalBayar)
 	fmt.Printf("Uang diterima : Rp%d\n", uang)
 	fmt.Printf("Kembalian     : Rp%d\n", kembalian)
+
+	fmt.Println("Terima kasih sudah mencuci di GERARD LAUNDRY")
 }
